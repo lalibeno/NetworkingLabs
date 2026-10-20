@@ -140,7 +140,7 @@ I have aircrack-ng already installed:
 
 To decrypt use the below command:
 
-You will need to untar the secretarchive.tar.bz2 file and will get the file ‘data’ as below:
+aircrack-ng -w leaked_password_list_clean.txt eggtopia_anon_practice.pcap.bz2.enc.tar
 
 ![Screenshot or photo](images/image_21.png)
 
