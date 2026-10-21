@@ -148,6 +148,30 @@ aircrack-ng -w leaked_password_list_clean.txt eggtopia_anon_practice.pcap.bz2.en
 
 ![Screenshot or photo](images/image_23.png)
 
+Great, Aircrack-ng found the Wi-Fi password:
+
+Decryption key: drpepperdrinker
+
+Now configure Wireshark to decrypt the packets.
+
+1. Add the Wi-Fi password in Wireshark
+
+Open eggtopia_anon_practice.pcap.
+
+Go to Edit → Preferences → Protocols → IEEE 802.11.
+
+Tick Enable decryption.
+
+Click Edit beside Decryption Keys.
+
+Add a new entry:
+
+Key type: wpa-pwd
+
+Key: drpepperdrinker:Eggtopia134321
+
+Click OK, then OK again.
+
 ## Question 4:
 
 ![Screenshot or photo](images/image_24.png)
