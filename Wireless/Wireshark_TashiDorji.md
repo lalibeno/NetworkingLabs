@@ -86,6 +86,8 @@ Go to Edit  Preference  Protocols  TLS  and select the sslkeylog.log file as bel
 
 Click ok
 
+Search "mountain" on http||http2 and follow the stream.
+
 Recover all of the HTTP objects. The second-largest file has three words in it. Write these three words below all lower case with no spaces
 
 Go to File  Export Objects  HTTP  ( Then sort by size ) and select the 2nd largest file and save it.
